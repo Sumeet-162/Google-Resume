@@ -146,7 +146,7 @@ html::-webkit-scrollbar-thumb{
 .container{
   padding-top: 10px;
   padding-left: 10px;
-  padding-right: 1px;
+  padding-right: 10px;
 }
 @media (max-width:970px){
   .outer-container{
