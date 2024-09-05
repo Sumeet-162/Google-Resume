@@ -151,6 +151,7 @@ html::-webkit-scrollbar-thumb{
 @media (max-width:970px){
   .outer-container{
     flex-direction: column;
+    padding-right: 10px;
   }
   .inner-block-img{
     align-items: center;
