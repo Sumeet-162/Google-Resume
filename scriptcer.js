@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const inputField=document.getElementById('inputField');
 
-  const placeholderText= "Certifications and Achievements Accomplished by Sumeet K!";
+  const placeholderText= "Certifications and Achievements!";
   let index=0;
   let isRunning=true;
 
