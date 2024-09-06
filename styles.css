@@ -36,6 +36,7 @@ html::-webkit-scrollbar-thumb{
   margin-top: 1em;
   margin-bottom: 1em;
   align-items: center;
+  justify-content: space-between;
 }
 
 .googlegif{
