@@ -163,7 +163,6 @@ html::-webkit-scrollbar-thumb{
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  padding-top: 8em;
 }
 @media(max-width:480px){
   .result{
