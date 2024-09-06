@@ -85,6 +85,14 @@ html::-webkit-scrollbar-thumb{
   margin-left: 15px;
 }
 
+.fixed{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
 .navbar{
   display: flex;
   margin-bottom: 0.5rem;
