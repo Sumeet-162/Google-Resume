@@ -124,7 +124,7 @@ html::-webkit-scrollbar-thumb{
 
 
 .result{
-  margin-top: 0.5em;
+  padding-top: 10em;
   margin-left: 20px;
 }
 .blue-col{
@@ -166,7 +166,7 @@ html::-webkit-scrollbar-thumb{
   padding-top: 8em;
 }
 @media(max-width:480px){
-  .info{
+  .result{
     padding-top: 5em;
   }
 }
