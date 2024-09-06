@@ -101,7 +101,9 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width:970px){
   .navbar a{
-    padding-left: 3px;
+    padding-left: 4px;
+    justify-content: space-between;
+    font-size: 0.7em;
   }
 }
 
@@ -182,11 +184,17 @@ html::-webkit-scrollbar-thumb{
   .minilogo{
     display: inline;
     width: 25px;
-    margin-left: 20px;
-    margin-right: 7px;
+    margin-left: 15px;
+    margin-right: 10px;
   }
   .accordion{
     width: 100%;
+  }
+  .ques{
+    font-size: 0.9em;
+  }
+  .headsec{
+    padding-right: 15px;
   }
 }
 
@@ -217,6 +225,13 @@ html::-webkit-scrollbar-thumb{
 
 .accordion{
   width: 65%;
+}
+@media (max-width:970px){
+  .accordion{
+    width: 100%;
+    padding-right: 10px;
+  }
+
 }
 
 .accordion-item {
@@ -287,7 +302,7 @@ html::-webkit-scrollbar-thumb{
   /* box-shadow: rgba(64, 60, 67, 0.16) 0px 2px 5px 1px; */
   background-color: #f1f1f1;
   border: none;
-  width: 400px;
+  width: 350px;
   border-radius: 4em;
   color: black;
   font-size: 1em;
