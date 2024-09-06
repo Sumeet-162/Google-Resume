@@ -198,3 +198,21 @@ html::-webkit-scrollbar-thumb{
   padding-top: 10px;
   border-bottom: 1px solid #d2d2d2;
 }
+
+.fixed{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.container{
+  padding-top: 10em;
+}
+@media(max-width:480px){
+  .container{
+    padding-top: 8em;
+  }
+}
