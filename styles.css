@@ -34,16 +34,16 @@ html::-webkit-scrollbar-thumb{
   display: flex;
   width: 100%;
   margin-top: 1em;
-  margin-bottom: 1.7em;
+  margin-bottom: 1em;
   align-items: center;
-  justify-content: space-between;
 }
 
-.glogo{
-  width: 170px;
-  height: 50px;
-  padding-left: 1em;
+.googlegif{
+  height: 80px;
+  /* padding-right: 3em; */
 }
+
+
 
 .minilogo{
   z-index: 10001;
@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb{
   border-radius: 4em;
   color: black;
   font-size: 1em;
-  padding-left: 2em;
+  padding-left: 1.5em;
   height: 50px;
 }
 .ques:hover{
@@ -101,7 +101,7 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width:970px){
   .navbar a{
-    padding-left: 0px;
+    padding-left: 20px;
     margin-right: 6px;
     justify-content: space-between;
     font-size: 0.7em;
@@ -179,7 +179,7 @@ html::-webkit-scrollbar-thumb{
   .navbar{
     margin-left:20px;
   }
-  .glogo{
+  .googlegif{
     display: none;
   }
   .minilogo{
@@ -206,7 +206,13 @@ html::-webkit-scrollbar-thumb{
 }
 
 .blog-img{
-  border-radius: 0.5em;
+  border-radius: 1.5em;
+  width: 100%;
+  padding: 10px;
+}
+.blogImg{
+  display: flex;
+  align-items: center;
 }
 .gray21{
   color: #5b5b5b ;
@@ -273,11 +279,6 @@ html::-webkit-scrollbar-thumb{
   color: #666;
 }
 
-.blog-img{
-  width: 40%;
-  margin-left: 125px;
-  margin-top: 10px;
-}
 
 .bldr{
   background-color:#f1f1f1 ;
@@ -289,7 +290,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .relate-main{
-  width: 66%;
+  width: 75%;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(280px,auto));
 }
