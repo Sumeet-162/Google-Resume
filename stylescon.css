@@ -326,3 +326,21 @@ form {
     align-items: center;
   }
 }
+
+.fixed{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.main-contact{
+  padding-top: 10em;
+}
+@media(max-width:480px){
+  .main-contact{
+    padding-top: 8em;
+  }
+}
