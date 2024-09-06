@@ -64,13 +64,20 @@ html::-webkit-scrollbar-thumb{
   .minilogo{
     display: inline;
     width: 25px;
-    margin-left: 20px;
-    margin-right: 7px;
+    margin-left: 15px;
+    margin-right: 10px;
   }
   .accordion{
     width: 100%;
   }
+  .ques{
+    font-size: 0.9em;
+  }
+  .headsec{
+    padding-right: 15px;
+  }
 }
+
 
 .ques{
   border: 1px solid transparent;
@@ -123,8 +130,12 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width:970px){
   .navbar a{
-    padding-left: 3px;
+    padding-left: 0px;
+    margin-right: 6px;
+    justify-content: space-between;
+    font-size: 0.7em;
   }
+
 }
 .no-deco{
   text-decoration: none;
@@ -146,18 +157,20 @@ html::-webkit-scrollbar-thumb{
 .container{
   padding-top: 10px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 1px;
 }
 @media (max-width:970px){
   .outer-container{
-    flex-direction: column;
-    padding-right: 10px;
+    flex-direction: column;margin-bottom: 10px;
   }
   .inner-block-img{
     align-items: center;
     justify-content: center;
     display: flex;
     padding-top: 5px;
+  }
+  .container{
+    padding-right: 10px;
   }
 }
 
