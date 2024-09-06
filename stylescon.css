@@ -130,10 +130,14 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width:970px){
   .navbar a{
-    padding-left: 20px;
-    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
     justify-content: space-between;
     font-size: 0.7em;
+  }
+  .nav-main{
+    padding-right: 10px;
   }
 
 }
