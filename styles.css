@@ -101,7 +101,8 @@ html::-webkit-scrollbar-thumb{
 }
 @media (max-width:970px){
   .navbar a{
-    padding-left: 4px;
+    padding-left: 0px;
+    margin-right: 6px;
     justify-content: space-between;
     font-size: 0.7em;
   }
