@@ -23,28 +23,46 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-  event.preventDefault();
+  event.preventDefault(); // Prevent the default form submission
 
+  // Collect form data
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+
+  // Prepare data for API
   const formData = {
-      name: document.getElementById('name').value,
-      email: document.getElementById('email').value,
-      subject: document.getElementById('subject').value,
-      message: document.getElementById('message').value
+      name: name,
+      email: email,
+      subject: subject,
+      message: message
   };
 
-  fetch('/submit', {
+  // API endpoint URL with your form ID
+  const apiUrl = `https://api.web3forms.com/submit?form_id=${encodeURIComponent('contact-form')}`;
+
+  // Send POST request to API
+  fetch(apiUrl, {
       method: 'POST',
       headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
       },
       body: JSON.stringify(formData)
   })
   .then(response => response.json())
   .then(data => {
-      alert(data.message);
-      document.getElementById('contact-form').reset();
+      if (data.success) {
+          alert('Message sent successfully!');
+      } else {
+          alert('Failed to send message. Please try again.');
+      }
   })
   .catch(error => {
       console.error('Error:', error);
+      alert('An error occurred. Please try again.');
   });
 });
+
+
