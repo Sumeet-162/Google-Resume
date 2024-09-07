@@ -51,25 +51,27 @@
     </div>
     <div class="form-img">
       <div class="contact-form-container">
-        <form id="contact-form">
-            <div class="form-field">
-                <input type="text" id="name" required>
-                <label for="name">Name</label>
-            </div>
-            <div class="form-field">
-                <input type="email" id="email" required>
-                <label for="email">Email</label>
-            </div>
-            <div class="form-field">
-                <input type="text" id="subject" required>
-                <label for="subject">Subject</label>
-            </div>
-            <div class="form-field">
-                <textarea id="message" required></textarea>
-                <label for="message">Message</label>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="15acc38c-a12e-4a2c-81a3-1c9408affa1b">
+          
+          <div class="form-field">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Name</label>
+          </div>
+          <div class="form-field">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Email</label>
+          </div>
+          <div class="form-field">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Subject</label>
+          </div>
+          <div class="form-field">
+              <textarea id="message" name="message" required></textarea>
+              <label for="message">Message</label>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+      </form>
       </div>
       <div class="gif-main">
         <img class="con-gif" src="https://raw.githubusercontent.com/Sumeet-162/Google-Resume/main/06f21a161921919.63cd7887d0a70.gif" alt="gif">
