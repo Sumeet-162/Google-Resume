@@ -129,9 +129,9 @@ html::-webkit-scrollbar-thumb{
   .navbar a{
     display: flex;
     align-items: center;
-    padding-left: 6px;
+    padding-left: 5px;
     justify-content: space-between;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   .nav-main{
     padding-right: 10px;
