@@ -344,3 +344,19 @@ form {
     padding-top: 8em;
   }
 }
+
+.navbar a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(179, 179, 179);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+.navbar a:hover::after{
+  width: 87%;
+}
