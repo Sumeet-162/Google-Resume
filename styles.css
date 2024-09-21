@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   font-family: "Poppins", sans-serif;
@@ -94,6 +95,43 @@ html::-webkit-scrollbar-thumb{
   position: relative;
 }
 
+.sumeetimg{
+  border-radius: 100px;
+  margin-top: 15px;
+  float: right;
+}
+
+.resume{
+  display: flex;
+}
+
+.resume-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+@media(max-width: 480px){
+  .resume-container{
+    margin-right: 70px;
+  }
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color:  #1e1c1c;
+  color:  #e2e2e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #e2e2e2;
+  color:  #1a1a1a;
+  transform: scale(1.05); 
+}
+
 .fixed{
   position: fixed;
   background-color: white;
@@ -109,16 +147,32 @@ html::-webkit-scrollbar-thumb{
   color: black;
   font-weight: 500;
 }
+
+.navbar a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(179, 179, 179);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+.navbar a:hover::after{
+  width: 87%;
+}
 @media (max-width:970px){
   .navbar a{
     display: flex;
     align-items: center;
     padding-left: 5px;
     justify-content: space-between;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .nav-main{
-    padding-right: 5px;
+    padding-right: 10px;
   }
 
 }
@@ -362,20 +416,4 @@ html::-webkit-scrollbar-thumb{
   padding-bottom: 10px;
   padding-top: 10px;
   border-bottom: 1px solid #d2d2d2;
-}
-
-.navbar a::after{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: rgb(179, 179, 179);
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  transition: 0.5s;
-  margin-left: 20px;
-}
-
-.navbar a:hover::after{
-  width: 87%;
 }
