@@ -341,6 +341,11 @@ html::-webkit-scrollbar-thumb{
   padding-left: 10px;
   margin-bottom: 5px;
  }
+@media(max-width:480px){
+  .map{
+    padding-top: 10px;
+  }
+ }
  
 .mp-img{
   border-radius: 0.5rem;
