@@ -125,16 +125,33 @@ html::-webkit-scrollbar-thumb{
   color: black;
   font-weight: 500;
 }
+
+.navbar a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(179, 179, 179);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+
+.navbar a:hover::after{
+  width: 87%;
+}
+
 @media (max-width:970px){
   .navbar a{
     display: flex;
     align-items: center;
     padding-left: 5px;
     justify-content: space-between;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .nav-main{
-    padding-right: 5px;
+    padding-right: 10px;
   }
 
 }
@@ -150,8 +167,8 @@ html::-webkit-scrollbar-thumb{
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: #0F9D58;
-  color: white;
+  background-color: #e2e2e2;
+  color: rgb(21, 21, 21);
   border-radius: 1em;
   margin-bottom: 5px;
 }
@@ -221,22 +238,9 @@ html::-webkit-scrollbar-thumb{
   transition: background-color 0.3s ease;
 }
 .outer-container:hover{
-  background-color: rgb(208, 205, 205);
-  color: #4d4a4a;
-}
-
-.navbar a::after{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: rgb(179, 179, 179);
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  transition: 0.5s;
-  margin-left: 20px;
-}
-
-.navbar a:hover::after{
-  width: 87%;
+  background-color: rgb(28, 27, 27);
+  color: #dbdada;
+  .title{
+    color: #dbdada;
+  }
 }
