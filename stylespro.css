@@ -342,7 +342,7 @@ html::-webkit-scrollbar-thumb{
  }
  @media(max-width:480px){
   .map{
-    padding-top: 15px;
+    padding-top: 10px;
   }
   .mp-img{
     width: 340px;
