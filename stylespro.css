@@ -319,7 +319,6 @@ html::-webkit-scrollbar-thumb{
   }
   .m1{
     display: block;
-    z-index: 100001;
     border-radius: 0.5rem;
     margin-top: 10px;
     
@@ -341,9 +340,14 @@ html::-webkit-scrollbar-thumb{
   padding-left: 10px;
   margin-bottom: 5px;
  }
-@media(max-width:480px){
+ @media(max-width:480px){
   .map{
-    padding-top: 10px;
+    padding-top: 15px;
+  }
+  .mp-img{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0.5rem;
   }
  }
  
