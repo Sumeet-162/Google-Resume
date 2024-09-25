@@ -15,7 +15,7 @@ Deployment: GitHub Pages
 
 You can view the live website here: [Google-Resume](https://sumeet-162.github.io/Google-Resume/)
 
-![Resume Screenshot]([https://sumeet-162.github.io/Google-Resume/images/screenshot.png](https://raw.githubusercontent.com/Sumeet-162/Google-Resume/refs/heads/main/06f21a161921919.63cd7887d0a70.gif))
+![Resume Screenshot](https://raw.githubusercontent.com/Sumeet-162/Google-Resume/refs/heads/main/06f21a161921919.63cd7887d0a70.gif)
 
 
 
