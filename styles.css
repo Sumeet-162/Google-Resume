@@ -423,3 +423,32 @@ html::-webkit-scrollbar-thumb{
   padding-top: 10px;
   border-bottom: 1px solid #d2d2d2;
 }
+
+.visit{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.icon-img{
+  height: 40px;
+}
+
+.frame{
+  padding-top: 20px;
+}
+.frame-icon{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* padding-left: 20px; */
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+
+.frame-head{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  color: #424242;
+}
