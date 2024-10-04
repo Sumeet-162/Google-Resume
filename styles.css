@@ -430,25 +430,50 @@ html::-webkit-scrollbar-thumb{
 }
 
 .icon-img{
-  height: 40px;
+  height: 36px;
 }
 
 .frame{
   padding-top: 20px;
 }
-.frame-icon{
+.frame-icon {
+  background-color: #414141;
+  margin: 10px;
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  /* padding-left: 20px; */
-  padding-bottom: 50px;
+  padding-bottom: 15px;
   padding-top: 15px;
+  transition: background-color 0.5s ease;
 }
+
+.frame-icon:hover {
+  background-color: #d6d6d6;
+}
+
 
 .frame-head{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   color: #424242;
+}
+
+
+.snake{
+  margin-top: 10px;
+}
+.game{
+  width: 350px;
+}
+.snake-head{
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  color: #424242;
+}
+.stat{
+  padding-top: 10px;
 }
