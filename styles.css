@@ -435,8 +435,10 @@ html::-webkit-scrollbar-thumb{
 
 .frame{
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .frame-icon {
+  width: 700px;
   background-color: #414141;
   margin: 10px;
   border-radius: 10px;
@@ -464,10 +466,11 @@ html::-webkit-scrollbar-thumb{
 
 .snake{
   margin-top: 10px;
+  padding-bottom: 20px;
 }
-.game{
+/* .game{
   width: 350px;
-}
+} */
 .snake-head{
   padding-top: 10px;
   font-family: "Raleway", sans-serif;
@@ -476,4 +479,16 @@ html::-webkit-scrollbar-thumb{
 }
 .stat{
   padding-top: 10px;
+}
+
+@media(max-width: 480px){
+  .game{
+    width: 350px;
+  }
+  .frame-icon{
+    width: 350px;
+  }
+  .stat{
+    width: 350px;
+  }
 }
