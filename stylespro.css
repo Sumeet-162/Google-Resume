@@ -342,14 +342,24 @@ html::-webkit-scrollbar-thumb{
  }
  @media(max-width:480px){
   .map{
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .mp-img{
-    width: 340px;
     border-radius: 0.5rem;
+    width: 340px;
   }
  }
  
 .mp-img{
   border-radius: 0.5rem;
+}
+.major-p-img{
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+@media(max-width:780px){
+  .major-inner-block-img{
+    display: none;
+  }
 }
