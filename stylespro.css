@@ -363,3 +363,21 @@ html::-webkit-scrollbar-thumb{
     display: none;
   }
 }
+@media(max-width: 800px){
+  .rightSec{
+    display: none;
+  }
+  .ques{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .navbar{
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 10px;
+    width: 80%;
+  }
+  .m1{
+    height: 200px;
+  }
+}
