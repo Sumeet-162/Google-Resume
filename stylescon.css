@@ -145,18 +145,17 @@ html::-webkit-scrollbar-thumb{
   width: 87%;
 }
 
-@media (max-width:970px){
+@media (max-width:470px){
   .navbar a{
     display: flex;
     align-items: center;
     padding-left: 5px;
     justify-content: space-between;
-    font-size: 0.8em;
+    font-size: 0.55em;
   }
   .nav-main{
     padding-right: 10px;
   }
-
 }
 .no-deco{
   text-decoration: none;
@@ -361,6 +360,7 @@ form {
     padding-top: 8em;
   }
 }
+
 @media(max-width: 800px){
   .rightSec{
     display: none;
