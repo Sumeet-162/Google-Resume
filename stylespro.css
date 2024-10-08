@@ -380,3 +380,9 @@ html::-webkit-scrollbar-thumb{
     height: 200px;
   }
 }
+
+@media(max-width: 400px){
+  .m1{
+    width: 340px;
+  }
+}
