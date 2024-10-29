@@ -386,3 +386,7 @@ html::-webkit-scrollbar-thumb{
     width: 340px;
   }
 }
+.visit{
+  padding-left: 20px;
+  padding-top: 10px;
+}
