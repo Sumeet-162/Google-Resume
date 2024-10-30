@@ -361,14 +361,18 @@ html::-webkit-scrollbar-thumb{
   .major-inner-block-img{
     display: none;
   }
+}@media(max-width: 400px){
+  .m1{
+    width: 340px;
+  }
 }
 @media(max-width: 800px){
   .rightSec{
     display: none;
   }
   .ques{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .navbar{
     font-size: 20px;
@@ -377,15 +381,10 @@ html::-webkit-scrollbar-thumb{
     width: 80%;
   }
   .m1{
-    height: 200px;
+    height: 170px;
   }
 }
 
-@media(max-width: 400px){
-  .m1{
-    width: 340px;
-  }
-}
 .visit{
   padding-left: 20px;
   padding-top: 10px;
