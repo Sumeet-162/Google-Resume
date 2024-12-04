@@ -175,10 +175,10 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     padding-left: 5px;
     justify-content: space-between;
-    font-size: 0.55em;
+    font-size: 0.67em;
   }
   .nav-main{
-    padding-right: 10px;
+    padding-right: 20px;
   }
 }
 
@@ -506,7 +506,7 @@ html::-webkit-scrollbar-thumb{
     font-size: 20px;
     justify-content: space-between;
     margin: 10px;
-    width: 80%;
+    width: 100%;
   }
   .frame-icon{
     width: 95%;
